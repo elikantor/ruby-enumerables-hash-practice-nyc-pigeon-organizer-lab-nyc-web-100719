@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     array = value.values.flatten
     array.each { |name|
       new_hash[name] = {}
-        if new_hash.include?(name)
+        if key.include?(name)
           new_hash[name] = {:color => [].push(key[:color])}, {:gender => [].push(key[:gender])}, {:lives => [].push(key[:lives])}
         end
     }
