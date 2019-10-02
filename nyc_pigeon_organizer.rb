@@ -5,9 +5,20 @@ def nyc_pigeon_organizer(data)
   
   data.each { |key, value|
     value.each { |subkey, subvalue|
-          binding.pry
+         
+      subvalue.each { |name|
+         binding.pry
+        if new_hash.include? != name
+          new_hash[name] = {}
+      
+      }
+  
+          
     }
   }
+  
+  
+  
   
     # array.each { |name|
     #     binding.pry
