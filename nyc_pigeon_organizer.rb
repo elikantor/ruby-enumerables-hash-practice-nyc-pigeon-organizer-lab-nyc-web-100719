@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
   
   data.each { |key, value|
     array = value.values.flatten
+    binding.pry
   }
   
 new_hash
