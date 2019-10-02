@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
     array.each { |name|
       new_hash[name] = {}
         if key.include?(name)
-          new_hash[name] = {:color => [].push(key[:color]), {:gender => [].push(key[:gender]), :lives => [].push(key[:lives])}
+          new_hash[name] = {:color => [].push(key[:color])}, {:gender => [].push(key[:gender])}, {:lives => [].push(key[:lives])}
+        end
     }
     
     
