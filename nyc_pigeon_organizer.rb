@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
   data.each { |key, value|
     value.each { |subkey, subvalue|
           binding.pry
-    
     }
+  }
     array.each { |name|
         binding.pry
       new_hash[name] = {}
