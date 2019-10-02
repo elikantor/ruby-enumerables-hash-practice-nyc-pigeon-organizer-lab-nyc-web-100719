@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
          binding.pry
         if new_hash.include? != name
           new_hash[name] = {}
+        end
       
       }
   
