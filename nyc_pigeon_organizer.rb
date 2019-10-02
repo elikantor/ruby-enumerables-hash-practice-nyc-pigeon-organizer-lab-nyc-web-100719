@@ -1,4 +1,3 @@
-require 'pry'
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
@@ -16,7 +15,7 @@ def nyc_pigeon_organizer(data)
         end
         
         new_hash[name][key] << subkey.to_s
-        # binding.pry      
+    
       }
   
           
