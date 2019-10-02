@@ -7,11 +7,10 @@ def nyc_pigeon_organizer(data)
     value.each { |subkey, subvalue|
          
       subvalue.each { |name|
-         binding.pry
-        if new_hash.include? != name
+        if !new_hash[name]
           new_hash[name] = {}
         end
-      
+         binding.pry      
       }
   
           
